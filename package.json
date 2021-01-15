@@ -14,7 +14,7 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@ionic/core": "one",
+    "@ionic/core": "4.6.2",
     "express": "^4.17.0"
   },
   "devDependencies": {

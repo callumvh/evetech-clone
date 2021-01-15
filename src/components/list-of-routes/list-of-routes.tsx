@@ -126,6 +126,7 @@ export class ListOfRoutes {
           <ion-item
             onClick={this.closeModal}
             color="tertiary"
+            //@ts-ignore
             button="true"
             href="/desktop-pcs"
           >
@@ -134,6 +135,7 @@ export class ListOfRoutes {
           <ion-item
             onClick={this.closeModal}
             color="tertiary"
+            //@ts-ignore
             button="true"
             href="/pc-components"
           >

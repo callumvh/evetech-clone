@@ -84,7 +84,7 @@ export class AppRoot {
             component="parts-first"
             componentProps={this.deskTopPcRoutes}
           />
-          <ion-route url="/desktop-pcs/" />
+          <ion-route url="/desktop-pcs/" component="" />
           <ion-route
             url="/desktop-pcs/browse-by-price"
             component="parts-first"

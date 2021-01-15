@@ -8,12 +8,14 @@ export class SideNav {
   render() {
     return [
       <ion-app>
+        //@ts-ignore
         <ion-split-pane disabled="false" contentId="menu-content">
           <ion-menu
             // maxEdgeStart="200"
             side="end"
             type="push"
             contentId="menu-content"
+            //@ts-ignore
             swipeGesture="false"
           >
             <ion-content>

@@ -28,7 +28,7 @@ export class AppProfile {
           <ion-title>Profile: {this.name}</ion-title>
         </ion-toolbar>
       </ion-header>,
-
+      //@ts-ignore
       <ion-content padding>
         <p>
           {sayHello()}! My name is {this.formattedName()}. My name was passed in

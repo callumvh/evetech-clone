@@ -17,7 +17,7 @@ export class AppProfile {
   @Prop() sixthProp: shapeCategory;
   @Prop() categoryName: shapeCategory;
   @Prop() nonExistant: string;
- 
+
   render() {
     return [
       <ion-content>
@@ -40,74 +40,86 @@ export class AppProfile {
               <ion-item
                 href={this.firstProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.firstProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
             {this.secondProp ? (
               <ion-item
                 href={this.secondProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.secondProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
             {this.thirdProp ? (
               <ion-item
                 href={this.thirdProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.thirdProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
             {this.fourthProp ? (
               <ion-item
                 href={this.fourthProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.fourthProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
             {this.fifthProp ? (
               <ion-item
                 href={this.fifthProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.fifthProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
             {this.sixthProp ? (
               <ion-item
                 href={this.sixthProp.urlName}
                 color="secondary"
+                //@ts-ignore
                 button="true"
+                //@ts-ignore
                 detail="true"
               >
                 {this.sixthProp.name}
               </ion-item>
             ) : (
-              undefined
-            )}
+                undefined
+              )}
           </ion-list>
         </ion-grid>
       </ion-content>
