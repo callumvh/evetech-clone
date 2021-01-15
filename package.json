@@ -1,0 +1,24 @@
+{
+  "name": "ionic-evetech",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-evetech",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "one",
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.1.5",
+    "workbox-build": "4.3.1"
+  }
+}
